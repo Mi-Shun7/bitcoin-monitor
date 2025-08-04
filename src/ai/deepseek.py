@@ -7,6 +7,8 @@ import requests
 import time
 from datetime import datetime
 from typing import Dict, Any, List, Optional, Union
+from dotenv import load_dotenv
+from src.alerts.telegram_alerts import TelegramAlerts
 
 from config import DEEPSEEK_AI, DATA_DIRS
 
@@ -323,6 +325,22 @@ class DeepseekAPI:
                 last_record_id=last_record_id,
                 user_settings=kwargs.get('user_settings', {})
             )
+
+                # --- Telegram Alert ---
+            telegram_token = os.getenv("TELEGRAM_BOT_TOKEN")
+            telegram_chat_id = os.getenv("TELEGRAM_CHAT_ID")
+
+            if telegram_token and telegram_chat_id:
+                try:
+                    bot = TelegramAlerts(telegram_token)
+                    bot.send_message(f"🚀 New Investment Advice:\n\n{advice}")
+                    logger.info("Sent investment advice to Telegram bot.")
+                except Exception as e:
+                    logger.error(f"Failed to send Telegram alert: {e}")
+            else:
+                logger.warning("Telegram BOT_TOKEN or TELEGRAM_CHAT_ID not set, skipping Telegram alert.")
+            # --- Telegram Alert  ---
+
             
             return {
                 "success": True,

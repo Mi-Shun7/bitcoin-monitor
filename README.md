@@ -12,4 +12,22 @@ Analyze BTC price, AHR999 index, and Fear & Greed index based on historical data
 - ✅ Consolidate multiple data sources by date into a unified JSON format
 - ✅ Use Deepseek R1 AI model to offer advanced investment analysis suggestions
 
+
+## Setup
+- 
+- pip install requests pandas python-dotenv
+- pip freeze > requirements.txt
+- pip install python-dotenv     # to load environmental variables
+
+
+## Notification 
+Using @Botfather for the telegram notification
+
+Search botfather on telegram 
+
+https://api.telegram.org/bot8351349104:AAHLkuRSLtehWg98CASFQ12Xds4z0-Hz-1s/getUpdates
+
+
+
+
 MIT License 

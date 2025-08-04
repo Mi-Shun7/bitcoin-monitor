@@ -17,7 +17,8 @@ def get_investment_advice_template(current_date: str, last_position: int = 0,
     current_invested = (last_position / 100) * total_budget
     available_cash = total_budget - current_invested
     
-    return f"""You are my professional Bitcoin investment advisor, with deep expertise in cryptocurrency market analysis and rigorous risk management capabilities。 Based on current market data ({current_date}), please provide a comprehensive analysis and specific actionable investment recommendations。
+    return f"""You are my professional Bitcoin investment advisor, with deep expertise in cryptocurrency market analysis and rigorous risk management capabilities。 
+    Based on current market data ({current_date}), please provide a comprehensive analysis and specific actionable investment recommendations。
 
 # TL;DR (Core Summary)
 Please provide a core summary of 50 words or less at the beginning, including：

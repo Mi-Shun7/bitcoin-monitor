@@ -5,6 +5,7 @@ import asyncio
 import logging
 import platform
 from datetime import datetime
+from dotenv import load_dotenv
 
 from webhook import send_message_async
 
@@ -29,6 +30,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 os.makedirs("reports", exist_ok=True)
+load_dotenv()
 
 async def generate_analysis_report(force_update=False):
     logger.info("Start generating analysis report...")

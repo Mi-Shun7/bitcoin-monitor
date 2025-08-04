@@ -3,6 +3,7 @@ import logging
 from datetime import datetime
 import time
 import os
+import pandas as pd
 from config import MARKET_SENTIMENT
 
 logger = logging.getLogger(__name__)
@@ -55,6 +56,7 @@ class BTCPriceCollector(BaseDataCollector):
                 btc_history.sort(key=lambda x: x["timestamp"], reverse=True)
                 
                 self.save_to_json(btc_history, self.btc_history_file)
+                self.save_to_csv(btc_history, "btc_price_history.csv")
                 
                 return btc_history
             else:

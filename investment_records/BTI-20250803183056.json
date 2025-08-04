@@ -1,0 +1,47 @@
+{
+  "id": "BTI-20250803183056",
+  "timestamp": "20250803183056",
+  "date": "2025-08-03",
+  "recommendation": "# TL;DR  \n**Market Status**: Choppy market  \n**Decision**: Increase position to 70% (+10%)  \n**Key Reasons**: Strategic accumulation below cost basis, Ahr999 (1.0874) signals undervaluation, Fear & Greed neutral (53), mid-term bullish structure intact.  \n\n---\n\n### I. Market Cycle Analysis  \n**Cycle Phase**: Transition from distribution to accumulation. Price consolidating between $110k-$119k. **Key Levels**: Support at $110k (July 2025 low), resistance at $119k (July 2025 high). **Ahr999** (1.0874) nears accumulation threshold (1.0), **Fear & Greed** (53) neutral. Sentiment balanced; market in choppy phase but retains mid-term bullish bias.  \n\n---\n\n### II. Technical Indicator Interpretation  \n1. **Price Trends**: Down 4.8% from July peak ($119,954 → $113,939), testing 30-day moving average (~$114k). Volume stable, no panic selling.  \n2. **Market Valuation**:  \n   - **Ahr999**: 1.0874 (above accumulation threshold 1.0, below overheated 1.2). Historically, values <1.2 indicate mid-cycle opportunities.  \n   - **Fear & Greed**: 53 (neutral), down from 75 (July 31), cooling speculative heat.  \n3. **Cycle Phase**: Distribution phase ending; accumulation signals emerging. Bullish divergence: Higher lows since June ($100k → $113k).  \n\n---\n\n### III. Investment Decision Recommendations  \n1. **Position Adjustment**: **Increase position to 70%** (+10%, $100 added).  \n2. **Entry/Exit Levels**:  \n   - Buy: **$113,939** (current price) for 5% ($50), **$110k** for 5% ($50) if tested.  \n   - Sell: Take 25% profit at **$119k** (short-term), 50% at **$130k** (mid-term).  \n3. **Stop-Loss**: Maintain at **$105,000** (9% below cost basis; triggers if macro risks escalate).  \n4. **Profit Targets**:  \n   - Short-term (1-3 months): **$119,000** (+4.4% from current price).  \n   - Mid-term (6 months): **$130,000** (+14.1%).  \n\n---\n\n### IV. Position Management Tracking  \n**Last Recommendation**: Hold 60%, stop-loss $105k  \n**Current Recommendation**: Increase to 70% (+10%, $100)  \n**Fund Allocation**:  \n- Invested: **$700** (70%)  \n- Remaining Cash: **$300** (30%)  \n**Cost Basis**:  \n- New Average: **$115,599** (from $115,876)  \n**Expected Returns**:  \n- Short-term: **$119,000** → **$728 profit** (+4.1% portfolio return).  \n- Mid-term: **$130,000** → **$2,450 profit** (+24.5% portfolio return).  \n\n---\n\n### V. Risk Analysis  \n1. **Downside Breakout**: Failure to hold $110k may trigger stop-loss. *Mitigation*: Strict adherence to $105k stop.  \n2. **Prolonged Consolidation**: Capital tied below cost basis. *Mitigation*: Reserve 30% cash for sub-$110k opportunities.  \n3. **Macro Shock**: External volatility. *Mitigation*: Monitor Fear & Greed; exit if drops below 40 (extreme fear).  \n\n---\n\n### VI. Key Future Observation Indicators  \n1. **$110,000 Support**: Break closes below → Reduce 10% position.  \n2. **Ahr999 <1.0**: Signals deep accumulation → Deploy remaining cash.  \n3. **Fear & Greed >70**: Extreme greed → Trim 20% position.  \n\n---\n\n### VII. Structured Decision Data  \n```json\n{\n  \"date\": \"2025-08-03\",\n  \"market_state\": \"Choppy Market\",\n  \"decision_keyword\": \"Increase Position\",\n  \"position\": 70,\n  \"position_change\": \"Increase 10%\",\n  \"action\": \"Buy\",\n  \"entry_price\": \"113,939 (50%), 110,000 (50%)\",\n  \"stop_loss\": 105000,\n  \"target_short\": 119000,\n  \"target_mid\": 130000,\n  \"cost_basis\": 115599,\n  \"portfolio\": {\n    \"total_budget\": 1000.0,\n    \"current_invested\": 700,\n    \"available_cash\": 300,\n    \"operation_amount\": 100\n  },\n  \"profit_calculation\": {\n    \"short_term_profit\": 728,\n    \"mid_term_profit\": 2450,\n    \"short_term_return_pct\": \"4.1%\",\n    \"mid_term_return_pct\": \"24.5%\",\n    \"portfolio_return_pct\": \"14.3%\"\n  },\n  \"market_cycle\": \"Accumulation\",\n  \"risks\": [\"Downside breakout\", \"Prolonged consolidation\", \"Macro shock\"],\n  \"key_levels\": [\"110000\", \"119000\", \"105000\"]\n}\n```",
+  "advice_data": {
+    "date": "2025-08-03",
+    "market_state": "Choppy Market",
+    "decision_keyword": "Increase Position",
+    "position": 70,
+    "position_change": "Increase 10%",
+    "action": "Buy",
+    "entry_price": "113,939 (50%), 110,000 (50%)",
+    "stop_loss": 105000,
+    "target_short": 119000,
+    "target_mid": 130000,
+    "cost_basis": 115599,
+    "portfolio": {
+      "total_budget": 1000.0,
+      "current_invested": 700,
+      "available_cash": 300,
+      "operation_amount": 100
+    },
+    "profit_calculation": {
+      "short_term_profit": 728,
+      "mid_term_profit": 2450,
+      "short_term_return_pct": "4.1%",
+      "mid_term_return_pct": "24.5%",
+      "portfolio_return_pct": "14.3%"
+    },
+    "market_cycle": "Accumulation",
+    "risks": [
+      "Downside breakout",
+      "Prolonged consolidation",
+      "Macro shock"
+    ],
+    "key_levels": [
+      "110000",
+      "119000",
+      "105000"
+    ]
+  },
+  "metadata": {
+    "last_record_id": "BTI-20250803182631",
+    "user_settings": {}
+  }
+}

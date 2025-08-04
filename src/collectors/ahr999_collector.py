@@ -3,6 +3,7 @@ import logging
 from datetime import datetime, timedelta
 import time
 import random
+import pandas as pd
 import numpy as np
 from config import MARKET_SENTIMENT
 
@@ -68,6 +69,7 @@ class AHR999Collector(BaseDataCollector):
                 ahr999_history.sort(key=lambda x: x["timestamp"], reverse=True)
                 
                 self.save_to_json(ahr999_history, self.ahr999_history_file)
+                self.save_to_csv(ahr999_history, "ahr999_history.csv")
                 
                 return ahr999_history
             else:

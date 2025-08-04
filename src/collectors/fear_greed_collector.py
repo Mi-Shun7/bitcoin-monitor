@@ -2,6 +2,7 @@ from collectors.base_collector import BaseDataCollector
 import logging
 from datetime import datetime, timedelta
 import time
+import pandas as pd
 from config import MARKET_SENTIMENT
 logger = logging.getLogger(__name__)
 
@@ -38,6 +39,7 @@ class FearGreedCollector(BaseDataCollector):
                 logger.info(f"Successfully retrieved {len(data['data'])} entries of Fear & Greed Index historical data")
                 
                 self.save_to_json(data, self.fng_history_file)
+                self.save_to_csv(data["data"], "fng_history.csv") 
                 
                 return self.format_fng_data(data, days)
             else:

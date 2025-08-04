@@ -1,0 +1,47 @@
+{
+  "id": "BTI-20250802213207",
+  "timestamp": "20250802213207",
+  "date": "2025-08-02",
+  "recommendation": "**TL;DR**  \nChoppy market transitioning from bull phase. Hold 40% position. Key: AHR999 (1.09) near accumulation zone, Fear & Greed neutral (55), price consolidating below $118k resistance.  \n\n---\n\n### I. Market Cycle Analysis  \nBitcoin is in a **choppy market** transitioning from a bull phase to accumulation. Key resistance at $118,000 (July highs), support at $105,000 (June lows). AHR999 (1.09) nears the \"value accumulation\" threshold (<1.2), while Fear & Greed (55) reflects neutral sentiment after cooling from extreme greed (75 in July).  \n\n---\n\n### II. Technical Indicator Interpretation  \n1. **Price Trends**: BTC fell 5.5% from July’s $119k peak to $113k (Aug 2), testing the 50-day moving average. Volume shows weakening bullish momentum.  \n2. **Market Valuation**: AHR999 at 1.09 (below overvalued 1.2 threshold) signals undervaluation potential. Fear & Greed Index dropped from 75 (greed) to 55 (neutral), reducing FOMO risks.  \n3. **Cycle Phase**: Transitioning from distribution to accumulation. Bullish exhaustion evident from failed $120k breakout attempts (July 21–28).  \n\n---\n\n### III. Investment Decision Recommendations  \n1. **Position Adjustment**: **Increase position** to 40% ($400).  \n2. **Entry Price**: Buy $400 at current price ($113,310). If price drops to $105,000 (6% decline), add another 20% ($200).  \n3. **Stop-Loss**: Trigger at $95,000 (-16% from entry), limiting max drawdown to 19% of total portfolio. Re-enter if AHR999 falls below 0.95.  \n4. **Profit Targets**:  \n   - Short-term (3 months): $125,000 (+10.3%). Trim 20% at target.  \n   - Mid-term (6–12 months): $150,000 (+32.3%). Take profit in 10% increments every $10k gain.  \n\n---\n\n### IV. Position Management Tracking  \n- **Current recommendation**: Increase Position (40%)  \n- **Position change**: 0% → 40%  \n- **Fund allocation**:  \n  - Invested: $400 (40%)  \n  - Remaining cash: $600  \n- **Cost basis**: $113,310 (avg)  \n- **Expected Returns**:  \n  - Short-term: $440 (+10.3% on $400)  \n  - Mid-term: $529.2 (+32.3% on $400)  \n  - Portfolio return: 5.3%–15.8%  \n\n---\n\n### V. Risk Analysis  \n1. **Breakdown below $105k support** → Mitigate with stop-loss at $95k.  \n2. **Macroeconomic volatility** → Hold 60% cash for dollar-cost averaging.  \n3. **Regulatory risks** → Monitor news; reduce exposure if Fear & Greed drops below 40.  \n\n---\n\n### VI. Key Future Observation Indicators  \n1. **AHR999 <1.0**: Signal undervaluation → Increase position by 20%.  \n2. **Fear & Greed <40 (Extreme fear)**: Accumulate another 30% allocation.  \n3. **Price >$118k resistance**: Confirm uptrend resumption → Add 20% position.  \n\n---\n\n### VII. Structured Decision Data  \n```json\n{\n  \"date\": \"2025-08-02\",\n  \"market_state\": \"Choppy Market\",\n  \"decision_keyword\": \"Increase Position\",\n  \"position\": 40,\n  \"position_change\": \"Increase 40%\",\n  \"action\": \"Buy\",\n  \"entry_price\": \"113,310\",\n  \"stop_loss\": 95000,\n  \"target_short\": 125000,\n  \"target_mid\": 150000,\n  \"cost_basis\": 113310,\n  \"portfolio\": {\n    \"total_budget\": 1000.0,\n    \"current_invested\": 400,\n    \"available_cash\": 600,\n    \"operation_amount\": 400\n  },\n  \"profit_calculation\": {\n    \"short_term_profit\": 440,\n    \"mid_term_profit\": 529.2,\n    \"short_term_return_pct\": \"10.3%\",\n    \"mid_term_return_pct\": \"32.3%\",\n    \"portfolio_return_pct\": \"5.3%-15.8%\"\n  },\n  \"market_cycle\": \"Accumulation\",\n  \"risks\": [\"Breakdown below $105k\", \"Macro volatility\", \"Regulatory shifts\"],\n  \"key_levels\": [\"$105k support\", \"$118k resistance\", \"AHR999 <1.0\"]\n}\n```",
+  "advice_data": {
+    "date": "2025-08-02",
+    "market_state": "Choppy Market",
+    "decision_keyword": "Increase Position",
+    "position": 40,
+    "position_change": "Increase 40%",
+    "action": "Buy",
+    "entry_price": "113,310",
+    "stop_loss": 95000,
+    "target_short": 125000,
+    "target_mid": 150000,
+    "cost_basis": 113310,
+    "portfolio": {
+      "total_budget": 1000.0,
+      "current_invested": 400,
+      "available_cash": 600,
+      "operation_amount": 400
+    },
+    "profit_calculation": {
+      "short_term_profit": 440,
+      "mid_term_profit": 529.2,
+      "short_term_return_pct": "10.3%",
+      "mid_term_return_pct": "32.3%",
+      "portfolio_return_pct": "5.3%-15.8%"
+    },
+    "market_cycle": "Accumulation",
+    "risks": [
+      "Breakdown below $105k",
+      "Macro volatility",
+      "Regulatory shifts"
+    ],
+    "key_levels": [
+      "$105k support",
+      "$118k resistance",
+      "AHR999 <1.0"
+    ]
+  },
+  "metadata": {
+    "last_record_id": null,
+    "user_settings": {}
+  }
+}

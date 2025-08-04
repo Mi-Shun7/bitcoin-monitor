@@ -3,6 +3,7 @@ import json
 import os
 import logging
 import traceback
+import pandas as pd
 from datetime import datetime
 import time
 
@@ -44,6 +45,20 @@ class BaseDataCollector:
             logger.error(f"Failed to save data: {str(e)}")
             return False
     
+    # Save data to CSV file
+    # Returns True if successful, False otherwise
+    # If data is a list of dictionaries, it will be converted to a DataFrame
+    def save_to_csv(self, data, filename):
+        file_path = os.path.join(self.data_dir, filename)
+        try:
+            df = pd.DataFrame(data)
+            df.to_csv(file_path, index=False)
+            logger.info(f"Data has been saved to CSV: {file_path}")
+            return True
+        except Exception as e:
+            logger.error(f"Failed to save data to CSV: {str(e)}")
+            return False
+    
     def load_from_json(self, filename):
 
         file_path = os.path.join(self.data_dir, filename)
@@ -59,6 +74,22 @@ class BaseDataCollector:
         except Exception as e:
             logger.error(f"Failed to load data: {str(e)}")
             return None
+
+    #Load data from CSV file
+    # Returns a DataFrame or None if the file does not exist or loading fails    
+    def load_from_csv(self, filename):
+        file_path = os.path.join(self.data_dir, filename)
+        try:
+            if os.path.exists(file_path):
+                df = pd.read_csv(file_path)
+                logger.info(f"Data loaded from {file_path}")
+                return df
+            else:
+                logger.warning(f"File does not exist: {file_path}")
+                return None
+        except Exception as e:
+            logger.error(f"Failed to load data from CSV: {str(e)}")
+            return None
     
     def is_data_expired(self, data, timestamp_key="last_updated", hours=24):
         if not data or timestamp_key not in data:
@@ -67,3 +98,4 @@ class BaseDataCollector:
         last_updated = data[timestamp_key]
         current_time = int(time.time())
         return (current_time - last_updated) >= hours * 60 * 60 
+    

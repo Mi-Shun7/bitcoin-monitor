@@ -1,0 +1,47 @@
+{
+  "id": "BTI-20250720223832",
+  "timestamp": "20250720223832",
+  "date": "2025-07-20",
+  "recommendation": "**TL;DR**  \nMarket Status: Bull market (choppy consolidation)  \nDecision: Hold  \nKey Reasons: Ahr999 (1.22) signals accumulation phase, Fear & Greed (72) shows moderate optimism, price consolidating near key resistance ($120K) with medium-term bullish structure intact.  \n\n---\n\n### I. Market Cycle Analysis  \nBull market consolidation phase. Price holds above critical support ($110K) after a 38% rally from April 2025 lows ($85K). Ahr999 (1.22) remains above the accumulation threshold (1.2), while Fear & Greed (72) reflects cautious optimism. Resistance at $120K; support at $110K.  \n\n---\n\n### II. Technical Indicator Interpretation  \n1. **Price Trends**: BTC trades sideways near $118K (July 14–20 range: $117K–$120K). No clear trend reversal signals; 30-day volatility decreased by 15% vs. June 2025.  \n2. **Market Valuation**:  \n   - Ahr999 (1.22): Neutral-bullish (accumulation phase). Below bubble territory (>1.4) but above undervalued zone (<0.95).  \n   - Fear & Greed (72): \"Greed\" zone but cooler than June 2025 peaks (79).  \n3. **Cycle Phase**: Uptrend consolidation. Bullish confirmation requires a close above $120K; bearish signal if $110K breaks.  \n\n---\n\n### III. Investment Decision Recommendations  \n1. **Position Adjustment**: **Hold** at 30% ($300 invested). No immediate entry due to resistance proximity.  \n2. **Entry/Exit Levels**:  \n   - Ideal entry: $110K–$115K (add 10–15% position).  \n   - Sell tier 1: $130K (25% profit-taking).  \n3. **Stop-Loss**: Maintain at $95K (19.6% below current price).  \n4. **Profit Targets**:  \n   - Short-term (1–3 months): $130K (+10% from current price).  \n   - Mid-term (6–12 months): $150K (+27%).  \n\n---\n\n### IV. Position Management Tracking  \n- **Current Position**: 30% ($300 invested).  \n- **Action**: Hold.  \n- **Post-Operation Allocation**:  \n  - Invested: $300 (30%)  \n  - Available Cash: $700  \n- **Cost Basis**: Unchanged at $118,223.48.  \n- **Expected Returns**:  \n  - Short-term: $330 (+10% on $300 position).  \n  - Mid-term: $381 (+27%).  \n  - Portfolio return: +3% (short-term), +8.1% (mid-term).  \n\n---\n\n### V. Risk Analysis  \n1. **Resistance Rejection at $120K**: Could trigger 8–12% correction. *Mitigate*: Wait for confirmed breakout before adding exposure.  \n2. **Overheated Sentiment**: Fear & Greed nearing \"Extreme Greed\" (>75). *Mitigate*: Trim 10% at $130K.  \n3. **Macro Shock**: Unseen in data, but systemic risks persist. *Mitigate*: Strict stop-loss at $95K.  \n\n---\n\n### VI. Key Future Observation Indicators  \n1. **$120K Breakout**: Bullish confirmation. *Action*: Add 10% position.  \n2. **Ahr999 < 1.0**: Bearish signal. *Action*: Reduce position by 15%.  \n3. **Fear & Greed > 75**: Overbought signal. *Action*: Sell 10% at market price.  \n\n---\n\n### VII. Structured Decision Data  \n```json\n{\n  \"date\": \"2025-07-20\",\n  \"market_state\": \"Bull Market\",\n  \"decision_keyword\": \"Hold\",\n  \"position\": 30,\n  \"position_change\": \"Maintain 30%\",\n  \"action\": \"Hold\",\n  \"entry_price\": \"N/A\",\n  \"stop_loss\": 95000,\n  \"target_short\": 130000,\n  \"target_mid\": 150000,\n  \"cost_basis\": 118223.48,\n  \"portfolio\": {\n    \"total_budget\": 1000.0,\n    \"current_invested\": 300,\n    \"available_cash\": 700,\n    \"operation_amount\": 0\n  },\n  \"profit_calculation\": {\n    \"short_term_profit\": 330,\n    \"mid_term_profit\": 381,\n    \"short_term_return_pct\": \"10%\",\n    \"mid_term_return_pct\": \"27%\",\n    \"portfolio_return_pct\": \"3% (short), 8.1% (mid)\"\n  },\n  \"market_cycle\": \"Uptrend\",\n  \"risks\": [\"Resistance rejection\", \"Overheated sentiment\", \"Macro shock\"],\n  \"key_levels\": [\"120000 (resistance)\", \"110000 (support)\", \"95000 (stop-loss)\"]\n}\n```",
+  "advice_data": {
+    "date": "2025-07-20",
+    "market_state": "Bull Market",
+    "decision_keyword": "Hold",
+    "position": 30,
+    "position_change": "Maintain 30%",
+    "action": "Hold",
+    "entry_price": "N/A",
+    "stop_loss": 95000,
+    "target_short": 130000,
+    "target_mid": 150000,
+    "cost_basis": 118223.48,
+    "portfolio": {
+      "total_budget": 1000.0,
+      "current_invested": 300,
+      "available_cash": 700,
+      "operation_amount": 0
+    },
+    "profit_calculation": {
+      "short_term_profit": 330,
+      "mid_term_profit": 381,
+      "short_term_return_pct": "10%",
+      "mid_term_return_pct": "27%",
+      "portfolio_return_pct": "3% (short), 8.1% (mid)"
+    },
+    "market_cycle": "Uptrend",
+    "risks": [
+      "Resistance rejection",
+      "Overheated sentiment",
+      "Macro shock"
+    ],
+    "key_levels": [
+      "120000 (resistance)",
+      "110000 (support)",
+      "95000 (stop-loss)"
+    ]
+  },
+  "metadata": {
+    "last_record_id": "BTI-20250720222923",
+    "user_settings": {}
+  }
+}

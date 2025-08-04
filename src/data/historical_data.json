@@ -1,14 +1,9 @@
 {
   "btc_price": [
     {
-      "timestamp": 1754179200000,
-      "date": "2025-08-03",
-      "price": 113939.0
-    },
-    {
       "timestamp": 1754092800000,
       "date": "2025-08-02",
-      "price": 112546.35
+      "price": 113310.66
     },
     {
       "timestamp": 1754006400000,
@@ -899,13 +894,18 @@
       "timestamp": 1738713600000,
       "date": "2025-02-05",
       "price": 96612.43
+    },
+    {
+      "timestamp": 1738627200000,
+      "date": "2025-02-04",
+      "price": 97763.13
     }
   ],
   "ahr999": [
     {
-      "timestamp": 1754153138,
+      "timestamp": 1754155742,
       "date": "2025-08-02",
-      "ahr999": 1.0874
+      "ahr999": 1.0943
     },
     {
       "timestamp": 1753948790,
@@ -1804,12 +1804,6 @@
     }
   ],
   "fear_greed": [
-    {
-      "timestamp": 1754179200,
-      "date": "2025-08-03",
-      "value": 53,
-      "value_classification": "Neutral"
-    },
     {
       "timestamp": 1754092800,
       "date": "2025-08-02",
@@ -2883,7 +2877,13 @@
       "date": "2025-02-05",
       "value": 54,
       "value_classification": "Neutral"
+    },
+    {
+      "timestamp": 1738627200,
+      "date": "2025-02-04",
+      "value": 72,
+      "value_classification": "Greed"
     }
   ],
-  "last_updated": 1754229520
+  "last_updated": 1754155874
 }
