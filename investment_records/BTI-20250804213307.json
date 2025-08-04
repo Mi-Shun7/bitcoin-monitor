@@ -1,0 +1,47 @@
+{
+  "id": "BTI-20250804213307",
+  "timestamp": "20250804213307",
+  "date": "2025-08-04",
+  "recommendation": "### TL;DR  \n- **Market Status**: Choppy market  \n- **Decision**: Hold (70% → 70%)  \n- **Key Reasons**: Neutral AHR999 (1.13), mixed sentiment (Fear & Greed: 64), price consolidating near cost basis ($115,599).  \n\n---\n\n### I. Market Cycle Analysis  \n**Cycle Phase**: Accumulation phase. **Support**: $112,000 (Aug 2 low). **Resistance**: $118,000 (July 28 high). **AHR999** (1.13) signals fair valuation. **Fear & Greed** (64) neutral. Market consolidating after 15% pullback from July highs ($119,954). No clear bull/bear dominance.  \n\n---\n\n### II. Technical Indicator Interpretation  \n1. **Price Trends**: Range-bound between $112,546 (Aug 2) and $118,062 (July 28). No decisive trend; 30-day volatility ~5%.  \n2. **Market Valuation**:  \n   - **AHR999**: 1.13 (neutral; <1.2 = accumulation zone).  \n   - **Fear & Greed**: 64 (neutral; down from 75 in July).  \n3. **Cycle Phase**: Accumulation. Transition to uptrend requires sustained break above $118k.  \n\n---\n\n### III. Investment Decision Recommendations  \n1. **Position Adjustment**: **Hold** (70% → 70%). Reserve cash for dips below $112k.  \n2. **Entry/Exit Levels**:  \n   - Buy: $112,000–$113,000 (allocate 50% of cash: $150).  \n   - Sell: $118,000 (take 20% profit), $125,000 (mid-term target).  \n3. **Stop-Loss**: Tighten to **$110,000** (4.9% below current price). Re-enter if rebounds above $112k with volume.  \n4. **Profit Targets**:  \n   - Short-term (1-3M): $118,000 (+2.0%).  \n   - Mid-term (6-12M): $125,000 (+8.0%).  \n\n---\n\n### IV. Position Management Tracking  \n- **Current Position**: 70% ($700 invested).  \n- **Action**: Hold. No immediate allocation.  \n- **Post-Operation**:  \n  - Invested: $700 (70%)  \n  - Available Cash: $300  \n- **Cost Basis**: $115,599 (unchanged).  \n- **Expected Returns**:  \n  - Short-term: $118,000 (+$210 profit, +2.0% portfolio).  \n  - Mid-term: $125,000 (+$1,050 profit, +10.5% portfolio).  \n\n---\n\n### V. Risk Analysis  \n1. **Volatility near resistance**: Failure to break $118k may trigger sell-offs. *Mitigate*: Trim 10% at $118k.  \n2. **Sentiment reversal**: Fear & Greed <50 signals panic. *Mitigate*: Add $100 at Fear & Greed ≤45.  \n3. **Macro risks**: Unprovided data (e.g., regulations). *Mitigate*: Strict stop-loss at $110k.  \n\n---\n\n### VI. Key Future Indicators  \n1. **$118,000 resistance**: Breakout confirms uptrend → increase position by 10%.  \n2. **AHR999 <1.0**: Undervaluation signal → deploy 80% cash.  \n3. **Fear & Greed >75**: Extreme greed → take 30% profit.  \n\n---\n\n### VII. Structured Decision Data  \n```json\n{\n  \"date\": \"2025-08-04\",\n  \"market_state\": \"Choppy Market\",\n  \"decision_keyword\": \"Hold\",\n  \"position\": 70,\n  \"position_change\": \"Maintain 70%\",\n  \"action\": \"Hold\",\n  \"entry_price\": \"112000-113000\",\n  \"stop_loss\": 110000,\n  \"target_short\": 118000,\n  \"target_mid\": 125000,\n  \"cost_basis\": 115599,\n  \"portfolio\": {\n    \"total_budget\": 1000.0,\n    \"current_invested\": 700,\n    \"available_cash\": 300,\n    \"operation_amount\": 0\n  },\n  \"profit_calculation\": {\n    \"short_term_profit\": 210,\n    \"mid_term_profit\": 1050,\n    \"short_term_return_pct\": \"2.0%\",\n    \"mid_term_return_pct\": \"10.5%\",\n    \"portfolio_return_pct\": \"6.3%\"\n  },\n  \"market_cycle\": \"Accumulation\",\n  \"risks\": [\"Resistance rejection\", \"Sentiment reversal\", \"Macro shocks\"],\n  \"key_levels\": [\"118000\", \"112000\", \"110000\"]\n}\n```",
+  "advice_data": {
+    "date": "2025-08-04",
+    "market_state": "Choppy Market",
+    "decision_keyword": "Hold",
+    "position": 70,
+    "position_change": "Maintain 70%",
+    "action": "Hold",
+    "entry_price": "112000-113000",
+    "stop_loss": 110000,
+    "target_short": 118000,
+    "target_mid": 125000,
+    "cost_basis": 115599,
+    "portfolio": {
+      "total_budget": 1000.0,
+      "current_invested": 700,
+      "available_cash": 300,
+      "operation_amount": 0
+    },
+    "profit_calculation": {
+      "short_term_profit": 210,
+      "mid_term_profit": 1050,
+      "short_term_return_pct": "2.0%",
+      "mid_term_return_pct": "10.5%",
+      "portfolio_return_pct": "6.3%"
+    },
+    "market_cycle": "Accumulation",
+    "risks": [
+      "Resistance rejection",
+      "Sentiment reversal",
+      "Macro shocks"
+    ],
+    "key_levels": [
+      "118000",
+      "112000",
+      "110000"
+    ]
+  },
+  "metadata": {
+    "last_record_id": "BTI-20250804212900",
+    "user_settings": {}
+  }
+}

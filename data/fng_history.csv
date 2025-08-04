@@ -1,5 +1,6 @@
 value,value_classification,timestamp,time_until_update
-53,Neutral,1754179200,36080
+64,Greed,1754265600,24170
+53,Neutral,1754179200,
 55,Greed,1754092800,
 65,Greed,1754006400,
 72,Greed,1753920000,

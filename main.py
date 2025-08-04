@@ -112,6 +112,7 @@ async def get_ai_investment_advice():
                 
                 data_file = temp_file
                 print("The data format has been adjusted, continue processing...")
+            
         except Exception as e:
             logger.warning(f"Error reading data file: {str(e)}")
             print(f"warn: Error reading data file: {str(e)}，")
